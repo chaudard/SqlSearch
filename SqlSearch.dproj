@@ -20,11 +20,9 @@
 			<Base>true</Base>
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Base)'!=''">
-			<DCC_DependencyCheckOutputName>C:\Program Files (x86)\Cover\2.1.1.x\bin\SqlSearch.exe</DCC_DependencyCheckOutputName>
-			<DCC_ExeOutput>$(MRSBINARY)</DCC_ExeOutput>
+			<DCC_DependencyCheckOutputName>Executable\SqlSearch.exe</DCC_DependencyCheckOutputName>
+			<DCC_ExeOutput>./Executable</DCC_ExeOutput>
 			<DCC_UsePackage>vclx;vcl;vclimg;dbrtl;Rave80VCL;bdertl;rtl;vclactnband;vcldb;vcldbx;vcltouch;xmlrtl;dsnap;dsnapcon;TeeUI;TeeDB;Tee;vclib;ibxpress;adortl;inet;intrawebdb_100_140;Intraweb_100_140;VclSmp;vclie;inetdb;webdsnap;websnap;inetdbbde;inetdbxpress;soaprtl;vclribbon;DbxCommonDriver;DbxClientDriver;DBXInterBaseDriver;DBXMySQLDriver;dbexpress;dbxcds;fs14;frx14;fsDB14;frxDB14;fsBDE14;frxBDE14;fsADO14;frxADO14;fsIBX14;frxIBX14;frxDBX14;frxe14;fsTee14;frxTee14;asgd2010</DCC_UsePackage>
-			<DCC_UnitSearchPath>..\..\thirdPart\safeNet-inc;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
-			<DCC_Define>PRODUCTION;$(DCC_Define)</DCC_Define>
 			<DCC_UnitAlias>WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;$(DCC_UnitAlias)</DCC_UnitAlias>
 			<DCC_ImageBase>00400000</DCC_ImageBase>
 			<DCC_Platform>x86</DCC_Platform>
